@@ -23,6 +23,10 @@ repositories {
 	mavenCentral()
 }
 
+plugins {
+	id 'net.ltgt.apt' version '0.10'
+}
+
 
 ext {
 	springCloudVersion = 'Finchley.SR1'
